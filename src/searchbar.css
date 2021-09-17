@@ -1,0 +1,20 @@
+.input-group.md-form.form-sm.form-1 input {
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.productcontainer {
+    display: grid;
+    margin: 25px;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+}
+
+.itemcontainer {
+    border: 1px solid rgb(61, 61, 75);
+    border-radius: 10px;
+}
